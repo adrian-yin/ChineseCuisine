@@ -4,8 +4,9 @@ body{
 }
 .navicon {
   background: transparent;
-  position: relative;
+  position: fixed;
   height: 30px;
+  right : 100px;
   display: inline-block;
   z-index: 99;
   -webkit-transition: linear 0.5s all;
@@ -60,7 +61,7 @@ body{
   display: block;
   margin: 20px auto;
   width: 30%;
-  background-color:rgb(14, 92, 67);
+  background-color:#bdb76b;
   padding: 15px;
   display: block;
   opacity: 0;
@@ -69,7 +70,7 @@ body{
   -webkit-transform: translateY(-200%);
   -ms-transform: translateY(-200%);
   transform: translateY(-200%);
-  position:absolute;
+  position:fixed;
   left:35%;
 }
 

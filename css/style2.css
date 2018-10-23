@@ -122,7 +122,17 @@ header {
     letter-spacing: 0px;
 	margin-bottom:20px;
 }
-
+.carousel-caption p {
+    font-weight: normal;
+    color: white;
+    margin: 30px 0;
+    letter-spacing: 3px;
+    font-size: 13.5px;
+    line-height: 35px;
+    width: 80%;
+    margin: 0 auto 30px;
+    text-transform: capitalize;
+}
 
 #slides {
   position: relative;
@@ -235,17 +245,13 @@ header {
     font-size: 16px;
     letter-spacing: 2px;
     padding: 10px 20px;
-	margin-bottom:20px;
-	
+    border: 1px solid #fff;
     border-radius: 25px;
-    background: #666666;
+    background: #4CAF50;
     text-transform: capitalize;
-	
-	opacity: 0.7;
 }
 .contrast a:hover {
-    background: #a8a8a8;
-	opacity: 0.8;
+    background: transparent;
 }
 .thim-click-to-bottom i {
     color: #fff;
