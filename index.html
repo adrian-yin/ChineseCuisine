@@ -5,10 +5,23 @@
 <!--修改一-->
 
 <style type="text/css">
+
+
+
+
+
 </style>
-<link href="css/style2.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="css/style2.css" rel="stylesheet" type="text/css" media="all" />	<!--头部的样式-->
 <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<!-- js 小圆点-->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- font-awesome-icons 动态箭头-->
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- //font-awesome-icons -->
 <!--修改一结尾-->
 
 
@@ -51,7 +64,33 @@
 
 </head>
 <body>
+
+
 <!-- 修改二 -->
+<!-- 下拉菜单 -->
+<div class="nav-icon">		
+			<a href="#" class="navicon"></a>
+				<div class="toggle">
+					<ul class="toggle-menu">
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a  href="menu.html">Menu</a></li>
+						<li><a  href="blog.html">Blog</a></li>
+						<li><a  href="typo.html">Codes</a></li>
+						<li><a  href="events.html">Events</a></li>
+						<li><a  href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			<script>
+			$('.navicon').on('click', function (e) {
+			  e.preventDefault();
+			  $(this).toggleClass('navicon--active');
+			  $('.toggle').toggleClass('toggle--active');
+			});
+			</script>
+		</div>
+<!-- //下拉菜单 -->
+
+<!-- slider -->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
@@ -65,16 +104,14 @@
 			<div class="item active"> 
 				<div class="banner-dott">
 				<div class="container">
-					<div class="carousel-caption">
-						<h3>此处为一</h3>
-						<h4>此处为二</h4>
-						
-						<div class="contrast">
-							  
-							  <a href="#content-down"><img src="images/mydown.png"/></a>
+					<div style="text-align: center;position: relative;width:600px;left: 250px;top: -50px;" class="carousel-caption">
+						<h3>一|There's no sincerer love than</h3>
+						<h4 style="position: relative;top: 25px;">二|The Love of food</h4>
+						<div class="contrast"style="position: relative;top: 25px;">
+							  <p> 三|Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
 						 </div>
-						<div class="thim-click-to-bottom">
-							<a href="#about" class="scroll">
+						<div class="thim-click-to-bottom"style="position: relative;top: 25px;">
+							<a href="#content-down" class="scroll">
 								<i class="fa  fa-chevron-down"></i>
 							</a>
 						</div>
@@ -85,14 +122,14 @@
 			<div class="item item1"> 
 				<div class="banner-dott">
 				<div class="container">
-					<div class="carousel-caption">
-						<h3>Food is not rational</h3>
-						<h4>Food is a habit</h4>
-						<div class="contrast">
-							  <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+					<div style="text-align: center;position: relative;width:600px;left: 250px;top: -50px;" class="carousel-caption">
+						<h3>一|There's no sincerer love than</h3>
+						<h4 style="position: relative;top: 25px;">二|The Love of food</h4>
+						<div class="contrast"style="position: relative;top: 25px;">
+							  <p> 三|Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
 						 </div>
-						<div class="thim-click-to-bottom">
-							<a href="#about" class="scroll">
+						<div class="thim-click-to-bottom"style="position: relative;top: 25px;">
+							<a href="#content-down" class="scroll">
 								<i class="fa  fa-chevron-down"></i>
 							</a>
 						</div>
@@ -103,14 +140,14 @@
 			<div class="item item2"> 
 				<div class="banner-dott">
 				<div class="container">
-					<div class="carousel-caption">
-						<h3>We saw on every street corner </h3>
-						  <h4>and they're donuts</h4>
-						  <div class="contrast">
-							  <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
-						  </div>
-						<div class="thim-click-to-bottom">
-							<a href="#about" class="scroll">
+					<div style="text-align: center;position: relative;width:600px;left: 250px;top: -50px;" class="carousel-caption">
+						<h3>一|There's no sincerer love than</h3>
+						<h4 style="position: relative;top: 25px;">二|The Love of food</h4>
+						<div class="contrast"style="position: relative;top: 25px;">
+							  <p> 三|Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+						 </div>
+						<div class="thim-click-to-bottom"style="position: relative;top: 25px;">
+							<a href="#content-down" class="scroll">
 								<i class="fa  fa-chevron-down"></i>
 							</a>
 						</div>
@@ -121,14 +158,14 @@
 			<div class="item item3"> 
 				<div class="banner-dott">
 				<div class="container">
-					<div class="carousel-caption">
-						 <h3>Food is our common ground </h3>
-						  <h4>A universal experience </h4>
-						  <div class="contrast">
-							  <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
-						  </div>
-						<div class="thim-click-to-bottom">
-							<a href="#about" class="scroll">
+					<div style="text-align: center;position: relative;width:600px;left: 250px;top: -50px;" class="carousel-caption">
+						<h3>一|There's no sincerer love than</h3>
+						<h4 style="position: relative;top: 25px;">二|The Love of food</h4>
+						<div class="contrast"style="position: relative;top: 25px;">
+							  <p> 三|Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+						 </div>
+						<div class="thim-click-to-bottom"style="position: relative;top: 25px;">
+							<a href="#content-down" class="scroll">
 								<i class="fa  fa-chevron-down"></i>
 							</a>
 						</div>
@@ -140,14 +177,14 @@
 			<div class="item item4"> 
 				<div class="banner-dott">
 				<div class="container">
-					<div class="carousel-caption">
-						 <h3>Food is our common ground </h3>
-						  <h4>A universal experience </h4>
-						  <div class="contrast">
-							  <p> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
-						  </div>
-						<div class="thim-click-to-bottom">
-							<a href="#about" class="scroll">
+					<div style="text-align: center;position: relative;width:600px;left: 250px;top: -50px;" class="carousel-caption">
+						<h3>一|There's no sincerer love than</h3>
+						<h4 style="position: relative;top: 25px;">二|The Love of food</h4>
+						<div class="contrast"style="position: relative;top: 25px;">
+							  <p> 三|Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+						 </div>
+						<div class="thim-click-to-bottom"style="position: relative;top: 25px;">
+							<a href="#content-down" class="scroll">
 								<i class="fa  fa-chevron-down"></i>
 							</a>
 						</div>
@@ -165,6 +202,31 @@
 			<span class="sr-only">Next</span>
 		</a>
     </div> 
+	<!-- //slider -->
+<!-- // banner -->
+
+
+
+<!-- start-smoth-scrolling 滚动效果-->
+<script src="js/SmoothScroll.min.js"></script>
+
+<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+
+
+<!-- for bootstrap working 切换效果-->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
 	<!-- //修改二 -->
 	<!-- 修改三 -->
  	<!-- <div class="header">
@@ -557,5 +619,6 @@
 		</div>
 	</div>		
 	<!--//footer-->
+	
 </body>
 </html>
