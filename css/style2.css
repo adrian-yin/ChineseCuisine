@@ -454,6 +454,7 @@ nav.navbar.navbar-default {
 .carousel-control {
     width: 5%;
 }
+/*--
 .carousel-control .glyphicon-menu-left, .carousel-control .glyphicon-menu-right, .carousel-control .icon-prev, .carousel-control .icon-next {
     width: 45px;
     height: 45px;
@@ -468,6 +469,7 @@ nav.navbar.navbar-default {
     padding: 4px;
 	border-radius:50%;
 }
+--*/  
 .carousel .item{ 
 	background:url(../images/slider1.jpg)no-repeat center 0px;
 	background-size:cover;  
@@ -517,10 +519,10 @@ nav.navbar.navbar-default {
     top: 48%;
 }
 .carousel-control .icon-prev, .carousel-control .glyphicon-menu-left {
-    left: 70%;
+    left: -10%;
 }
 .carousel-control .icon-next, .carousel-control .glyphicon-menu-right {
-    right: 50%;
+    right: -10%;
 }
 .glyphicon {
     line-height: 1.5;
